@@ -32,7 +32,7 @@ function loadImages() {
     bgImage.onload = function () {
         bgReady = true;
     };
-    bgImage.src = "image/Background.png";
+    bgImage.src = "image/background3_1.jpg";
 
     heroImage = new Image();
     heroImage.onload = function () {
