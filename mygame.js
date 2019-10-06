@@ -171,7 +171,7 @@ var render = function () { // Drawing the right images in the right place
     ctx.fillText(`Remaining Time : ${SecondsPerRound - elapsedTime}`, 150, 50);
     ctx.fillText(`Chuon Chuon chasing rabbit!`, 110, 80);
 
-    document.getElementById('score').innerHTML = `🐰Hurry up! ChuonChuon got ${score} rabbits`;
+    document.getElementById('score').innerHTML = `🐰 Hurry up! ChuonChuon got ${score} rabbits`;
 };
 
 var main = function () {

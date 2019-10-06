@@ -39,14 +39,16 @@ h1 {
     font-family: montserrat;
 }
 
-.intro {
-    font-family: roboto;
-}
 
-#userinfo {
-    font-family: roboto;
-}
 
 .Chuon {
     font-family: 'Black Ops One', cursive;
+}
+
+.CC {
+    margin-right: 7px;
+}
+
+.game {
+    margin-top: 30px;
 }
