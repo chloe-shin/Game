@@ -1,0 +1,58 @@
+
+.userinfo {
+    display: flex;
+    align-items: center;
+}
+ 
+p {
+    font-family: roboto;
+    font-size: 15px;
+}
+
+#userName {
+    height: 20px;
+    width: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#submit {
+    height: 30px;
+    width: 100px;
+    font-family: montserrat;
+    font-size: 12px;
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#score {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    margin-left: 0px;
+}
+
+#start {
+    height: 40px;
+    width: 190px;
+    font-family: montserrat;
+    font-size: 12px;
+    letter-spacing: px;
+    font-weight: bold;
+    color: white;
+    background-color: #94c83f;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+}
+
+h1 {
+    font-family: montserrat;
+}
+
+.intro {
+    font-family: roboto;
+}
