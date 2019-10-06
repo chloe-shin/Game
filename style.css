@@ -2,34 +2,20 @@
 .userinfo {
     display: flex;
     align-items: center;
+    
 }
+
  
 p {
     font-family: roboto;
     font-size: 15px;
 }
 
-#userName {
-    height: 20px;
-    width: 120px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#submit {
-    height: 30px;
-    width: 100px;
-    font-family: montserrat;
-    font-size: 12px;
-    color: white;
-    background-color: grey;
-    border-radius: 5px;
-    border-style: none;
-}
 
 #score {
+    margin-top: 30px;
     font-family: Montserrat;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: bold;
     color: red;
     margin-left: 0px;
@@ -43,7 +29,7 @@ p {
     letter-spacing: px;
     font-weight: bold;
     color: white;
-    background-color: #94c83f;
+    background-color: #f08b93;  /*#94c83f;*/
     border-radius: 20px;
     border-style: none;
     box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
@@ -55,4 +41,12 @@ h1 {
 
 .intro {
     font-family: roboto;
+}
+
+#userinfo {
+    font-family: roboto;
+}
+
+.Chuon {
+    font-family: 'Black Ops One', cursive;
 }

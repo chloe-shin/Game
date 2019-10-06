@@ -8,7 +8,8 @@ function setupWebpage() {
     ctx = canvas.getContext("2d"); // telling JS to create 2 dimension for canvas.
     canvas.width = 512;
     canvas.height = 480;
-    document.body.appendChild(canvas); //Append <canvas> to the body
+    let canvasWrapper = document.getElementById("canvas-wrapper");
+    canvasWrapper.appendChild(canvas); //Append <canvas> to the body
 
 }
 
@@ -44,6 +45,8 @@ function loadImages() {
         monsterReady = true;
     };
     monsterImage.src = "image/bunny.png";
+
+    document.getElementById("userinfo").innerHTML = `Wellcome ${userName.value}`
 }
 
 //Location of hero and monster when uploading game.
@@ -168,7 +171,7 @@ var render = function () { // Drawing the right images in the right place
     ctx.fillText(`Remaining Time : ${SecondsPerRound - elapsedTime}`, 150, 50);
     ctx.fillText(`Chuon Chuon chasing rabbit!`, 110, 80);
 
-    document.getElementById('score').innerHTML = `Hurry up! ChuonChuon got ${score} rabbits`;
+    document.getElementById('score').innerHTML = `🐰Hurry up! ChuonChuon got ${score} rabbits`;
 };
 
 var main = function () {
@@ -198,11 +201,27 @@ function startGame() {
 }   
 
 let start = document.getElementById ("start")
-start.addEventListener("click", startGame);
+// start.addEventListener("click", startGame);
+
 
 let userName = document.getElementById("userName")
-let submit = document.getElementById("submit")
 
-submit.addEventListener("click", loadImages);
-document.getElementById("userinfo").innerHTML = `Wellcome ${userName.value}`;
+start.addEventListener("click", loadImages);
+// document.getElementById("userinfo").innerHTML = `Wellcome ${userName.value}`;
 
+
+
+function sound(src) {
+    this.sound = document.createElement("audio");
+    this.sound.src = src;
+    this.sound.setAttribute("preload", "auto");
+    this.sound.setAttribute("controls", "none");
+    this.sound.style.display = "none";
+    document.body.appendChild(this.sound);
+    this.play = function(){
+      this.sound.play();
+    }
+    this.stop = function(){
+      this.sound.pause();
+    }
+  }
