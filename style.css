@@ -52,3 +52,8 @@ h1 {
 .game {
     margin-top: 10px;
 }
+
+h6 {
+    display: flex;
+    justify-content: center;
+}
