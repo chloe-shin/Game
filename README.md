@@ -1,7 +1,7 @@
-# CoderSchool FTW - * Nam, the Monster Hunter *
+# CoderSchool FTW - * Chuon Chuon Canvas Game *
 
 Created with love by: Chloe Shin
-Please check my game at: https://chuonchuon.netlify.com  
+Please check my game at: https://chloe-game-chuonchuon.netlify.com 
 
 
 ## Code Reviews

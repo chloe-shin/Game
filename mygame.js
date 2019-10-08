@@ -225,3 +225,4 @@ function sound(src) {
       this.sound.pause();
     }
   }
+sound("");
